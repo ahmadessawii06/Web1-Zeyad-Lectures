@@ -1,0 +1,324 @@
+:root {
+  --git: #c0341d;
+  --html: #b33a1e;
+  --css: #1a4bb8;
+  --js: #e6c200;
+  --git-bg: #fcc6bf;
+  --html-bg: #fad4c4;
+  --css-bg: #b8d1ff;
+  --js-bg: #ffed90;
+  --text-dark: #0f1e3d;
+  --radius: 24px;
+  --shadow: 0 8px 20px -6px rgba(0, 0, 0, 0.08);
+  --shadow-hover: 0 20px 30px -10px rgba(0, 0, 0, 0.15);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f0f4fa;
+  font-family:
+    "Inter",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    sans-serif;
+  padding: 2rem 1.5rem;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* ----- header – now with extra resource badges ----- */
+header {
+  text-align: center;
+  background: white;
+  padding: 2.5rem 2rem;
+  border-radius: 48px;
+  margin-bottom: 3rem;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.02);
+  border: black solid 5px;
+}
+
+h1 {
+  font-size: 2.3rem;
+  font-weight: 650;
+  color: #0a1a2f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+}
+
+.subtitle {
+  color: #33455c;
+  font-size: 1.2rem;
+  margin-top: 0.6rem;
+}
+
+.lecture-count {
+  display: inline-block;
+  background: #0f1e2f;
+  color: white;
+  padding: 0.4rem 1.8rem;
+  border-radius: 60px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin-top: 1.2rem;
+  letter-spacing: 0.3px;
+  padding: 10px 10px;
+  font-weight: bold;
+}
+
+/* --- NEW resource badges – exactly "behind" the lecture count --- */
+.resource-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2rem;
+  margin-top: 1.4rem;
+}
+
+.resource-badge {
+  background: #eef2f6;
+  color: #0a1a2f;
+  padding: 0.6rem 1.5rem;
+  border-radius: 60px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.02);
+  border: 1px solid rgba(0, 0, 0, 0.04);
+  transition: 0.1s;
+}
+
+.resource-badge i {
+  font-size: 1.1rem;
+}
+
+/* distinct colors for each resource */
+.resource-badge.slides {
+  background: #d1e0eb;
+  color: #0e3b4a;
+}
+
+.resource-badge.jsfund {
+  background: #ffeebf;
+  color: #5e4a00;
+}
+
+.resource-badge.react {
+  background: #dbeafe;
+  color: #0369a1;
+}
+
+/* ------ 4-COLUMN GRID (exactly as before) ------ */
+.lectures-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.8rem;
+  align-items: start;
+}
+
+.lecture-column {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.column-header {
+  background: #1e2b3c;
+  color: white;
+  padding: 1.1rem 0.8rem;
+  border-radius: 22px;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  box-shadow: 0 8px 0 rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.column-header i {
+  font-size: 1.6rem;
+  filter: drop-shadow(0 2px 2px rgba(0, 0, 0, 0.1));
+}
+
+.lecture-column:first-child .column-header {
+  background: var(--git);
+}
+
+.lecture-column:nth-child(2) .column-header {
+  background: var(--html);
+}
+
+.lecture-column:nth-child(3) .column-header {
+  background: var(--css);
+}
+
+.lecture-column:nth-child(4) .column-header {
+  background: var(--js);
+  color: #0f1e2f;
+}
+
+.lecture-column:nth-child(4) .column-header i {
+  color: #0f1e2f;
+}
+
+.lecture-card {
+  background: white;
+  border-radius: var(--radius);
+  padding: 1.8rem 1.2rem 1.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  box-shadow: var(--shadow);
+  transition: all 0.2s;
+  border-left: 8px solid transparent;
+}
+
+.lecture-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-hover);
+}
+
+.lecture-card.git {
+  background: var(--git-bg);
+  border-left-color: var(--git);
+}
+
+.lecture-card.html {
+  background: var(--html-bg);
+  border-left-color: var(--html);
+}
+
+.lecture-card.css {
+  background: var(--css-bg);
+  border-left-color: var(--css);
+}
+
+.lecture-card.javascript {
+  background: var(--js-bg);
+  border-left-color: var(--js);
+}
+
+.lecture-card.git:hover {
+  background: #fbaea5;
+}
+
+.lecture-card.html:hover {
+  background: #f7bfa8;
+}
+
+.lecture-card.css:hover {
+  background: #9cb9ff;
+}
+
+.lecture-card.javascript:hover {
+  background: #ffe572;
+}
+
+.lecture-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 0.2rem 0;
+}
+
+.lecture-number {
+  font-size: 3.2rem;
+  font-weight: 800;
+  color: rgb(0, 0, 0);
+
+  width: 8rem;
+  height: 8rem;
+
+  background: rgb(255, 255, 255);
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.watch-btn {
+  background: #0f1e2f;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.2rem;
+  border-radius: 100px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  cursor: pointer;
+  transition: 0.16s;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.watch-btn:hover {
+  background: #1b2c40;
+  transform: scale(0.98);
+}
+
+.footer {
+  text-align: center;
+  border-top: 1px solid #e0e6ec;
+  margin-top: 4rem;
+  padding-top: 2.5rem;
+  color: #4a5a72;
+}
+
+@media (max-width: 1000px) {
+  .lectures-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 650px) {
+  .lectures-container {
+    grid-template-columns: 1fr;
+  }
+
+  h1 {
+    font-size: 1.9rem;
+  }
+
+  .lecture-number {
+    font-size: 2.8rem;
+  }
+
+  .resource-row {
+    flex-direction: column;
+    gap: 0.7rem;
+  }
+}
+
+.line {
+  color: green;
+  text-decoration: none;
+}
+
+.line:hover {
+  text-decoration: underline;
+}
