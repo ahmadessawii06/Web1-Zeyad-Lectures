@@ -123,6 +123,15 @@ h1 {
   color: #0369a1;
 }
 
+.resource-badge a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.resource-badge a:hover {
+  text-decoration: underline;
+}
+
 /* ------ 4-COLUMN GRID (exactly as before) ------ */
 .lectures-container {
   display: grid;
