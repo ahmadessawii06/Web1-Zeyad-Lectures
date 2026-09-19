@@ -15,9 +15,9 @@ const lecturesData = {
     title: "HTML",
     icon: "fab fa-html5",
     lectures: [
-      { number: 1, url: "https://najah.zoom.us/rec/share/1vRUO3mPIPpOmXSuXWrzyPsyaopmRmCSrAp0_j59AqV90tOWeCwvE4PDejZU5WTJ.JGX2APt_s4-7AZrd?startTime=1759035655000" },
-      { number: 2, url: "https://najah.zoom.us/rec/share/sjk0I5zKiwySrP-SOtNovv1qTTI1e3xZIZdkZ7lziyZqzpRWi90aCA8IfSEehqMH.1VxLPVIh_PeAoS5n?startTime=1760418521000" },
-      { number: 3, url: "https://najah.zoom.us/rec/share/i9BBqgmsK42SCdrn2fGtpORChLf5rDLbBT1VVg8HyyWsi9QeznmYy8UcBgNf7EY.OvIxwGUqXPAhxwbW?startTime=1760850036000" }
+      { number: 1, url: "https://www.youtube.com/watch?v=afwyGXvFm0I&t=2923s" },
+      { number: 2, url: "https://www.youtube.com/watch?v=DVRkvdifYpY" },
+      { number: 3, url: "https://www.youtube.com/watch?v=h13lGf31daA&t=3s" }
     ]
   },
   css: {
