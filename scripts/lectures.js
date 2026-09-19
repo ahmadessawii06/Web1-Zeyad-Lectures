@@ -5,7 +5,7 @@ const lecturesData = {
     icon: "fab fa-git-alt",
     lectures: [
       { number: 1, url: "https://www.youtube.com/watch?v=B0F0bcBaAv0" },
-      { number: 2, url: "https://najah.zoom.us/rec/share/2au5jlgr0rYj6ZoCG60wByFE4LwhKmUbK8Dn4qJG1eudXj7Aw_3iVqBncrFvJH4.wk8UejEABTBuDo0x" },
+      { number: 2, url: "https://www.youtube.com/watch?v=6m0NZh-lsW0&t=1830s" },
       { number: 3, url: "https://najah.zoom.us/rec/share/bPz6CKxLwUl2iE4x8qQqk2gXho6j7cNrdW0mKcLTTYZ3vUqawF-GGicTlMDKBzID.EugPAHYHNDKwnnPe?startTime=1758377511000" },
       { number: 4, url: "https://najah.zoom.us/rec/share/hLrLnnByRrALHWON-OA5hOoid7TLEqKwziVJ_rSxojfKsDUK4h8ctiprHQs6tsV-.cEI1nDCjyx9JSX4s?startTime=1758431049000" },
       { number: 5, url: "https://najah.zoom.us/rec/share/k290txPb0ObsAkWc9PDVEHO9tf0kC75OSnhmj1ttXo8VeTg-hke0fgJT0EP5tpBz.FQM0lgiM-VVtRRA7?startTime=1758604257000" },
