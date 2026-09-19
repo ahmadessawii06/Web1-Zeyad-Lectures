@@ -4,7 +4,7 @@ const lecturesData = {
     title: "GIT",
     icon: "fab fa-git-alt",
     lectures: [
-      { number: 1, url: "https://najah.zoom.us/rec/share/Shz45Ap5qjsAigpVts1mpqlOEYn1AUhIa-zwldTeEuqRSAXy78Yz15rGwfQyWUKm.hQBFuF9FvHbrMV89" },
+      { number: 1, url: "https://www.youtube.com/watch?v=B0F0bcBaAv0" },
       { number: 2, url: "https://najah.zoom.us/rec/share/2au5jlgr0rYj6ZoCG60wByFE4LwhKmUbK8Dn4qJG1eudXj7Aw_3iVqBncrFvJH4.wk8UejEABTBuDo0x" },
       { number: 3, url: "https://najah.zoom.us/rec/share/bPz6CKxLwUl2iE4x8qQqk2gXho6j7cNrdW0mKcLTTYZ3vUqawF-GGicTlMDKBzID.EugPAHYHNDKwnnPe?startTime=1758377511000" },
       { number: 4, url: "https://najah.zoom.us/rec/share/hLrLnnByRrALHWON-OA5hOoid7TLEqKwziVJ_rSxojfKsDUK4h8ctiprHQs6tsV-.cEI1nDCjyx9JSX4s?startTime=1758431049000" },
