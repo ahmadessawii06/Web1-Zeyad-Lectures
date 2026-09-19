@@ -8,7 +8,7 @@ const lecturesData = {
       { number: 2, url: "https://www.youtube.com/watch?v=6m0NZh-lsW0&t=1830s" },
       { number: 3, url: "https://www.youtube.com/watch?v=EBy0wX956kg" },
       { number: 4, url: "https://www.youtube.com/watch?v=PktVfNjWWYw" },
-      { number: 6, url: "https://www.youtube.com/watch?v=qX4PDy3Hmsw" }
+      { number: 5, url: "https://www.youtube.com/watch?v=qX4PDy3Hmsw" }
     ]
   },
   html: {
