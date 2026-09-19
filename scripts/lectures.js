@@ -8,8 +8,7 @@ const lecturesData = {
       { number: 2, url: "https://www.youtube.com/watch?v=6m0NZh-lsW0&t=1830s" },
       { number: 3, url: "https://www.youtube.com/watch?v=EBy0wX956kg" },
       { number: 4, url: "https://www.youtube.com/watch?v=PktVfNjWWYw" },
-      { number: 5, url: "https://najah.zoom.us/rec/share/k290txPb0ObsAkWc9PDVEHO9tf0kC75OSnhmj1ttXo8VeTg-hke0fgJT0EP5tpBz.FQM0lgiM-VVtRRA7?startTime=1758604257000" },
-      { number: 6, url: "https://najah.zoom.us/rec/share/DvA-QiSaeZCvjbAkGLs5BF4TvIsgvmVeHW6Hwcsq4yr6BToUIW-RiaJ7kXkglJRp.3W4YoGB3tkUSsy1_?startTime=1758978487000" }
+      { number: 6, url: "https://www.youtube.com/watch?v=qX4PDy3Hmsw" }
     ]
   },
   html: {
