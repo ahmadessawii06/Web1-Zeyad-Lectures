@@ -1,6 +1,6 @@
 const lecturesData = {
   git: {
-    title: "GIT",
+    title: "GIT + GITHUB",
     icon: "fab fa-git-alt",
     lectures: [
       { number: 1, url: "https://drive.google.com/file/d/1XZN9et1YhvpPmsXsJobug6hEg-nMYyqg/view?usp=sharing" },
@@ -15,9 +15,10 @@ const lecturesData = {
     title: "HTML",
     icon: "fab fa-html5",
     lectures: [
-      { number: 1, url: "" },
-      { number: 2, url: "" },
-      { number: 3, url: "" }
+      { number: 1, url: "https://drive.google.com/file/d/1ePYRrMIPAZNlivbcn9j1PVpz7Vkjw46K/view?usp=drive_link" },
+      { number: 2, url: "https://drive.google.com/file/d/1LzEsu-mRqU8vUE2vRqp2JV9nd7MwRTBj/view?usp=drive_link" },
+      { number: 3, url: "https://drive.google.com/file/d/1-XHtN5sEp0P_yWqOhW6EUbvEzJcwNjff/view?usp=drive_link" },
+      { number: 4, url: "https://drive.google.com/file/d/1ulHwZ8hGTKawKwzg--3dj6uAW8NP16Yv/view?usp=sharing" }
     ]
   },
   css: {
