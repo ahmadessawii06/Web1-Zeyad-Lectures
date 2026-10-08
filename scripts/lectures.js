@@ -25,13 +25,12 @@ const lecturesData = {
     title: "CSS",
     icon: "fab fa-css3-alt",
     lectures: [
-      { number: 1, url: "" },
-      { number: 2, url: "" },
-      { number: 3, url: "" },
-      { number: 4, url: "" },
-      { number: 5, url: "" },
-      { number: 6, url: "" },
-      { number: 7, url: "" }
+      { number: 1, url: "https://drive.google.com/file/d/1ulHwZ8hGTKawKwzg--3dj6uAW8NP16Yv/view?usp=sharing" },
+      { number: 2, url: "https://drive.google.com/file/d/1DtXFv3VV9vowjHip-WG3gGwM5ivM57LN/view?usp=sharing" },
+      { number: 3, url: "https://drive.google.com/file/d/1-Xe5f-3doiqw4ScmQjk7GlyUSRVyEFG-/view?usp=sharing" },
+      { number: 4, url: "https://drive.google.com/file/d/1XLoCPmh31ggu6ml-xn0SxXSh-yvjJXDA/view?usp=sharing" },
+      { number: 5, url: "https://drive.google.com/file/d/1mXUYaqgF872ivhfQBzFMz9Cl2gDTthBQ/view?usp=sharing" },
+      { number: 6, url: "https://drive.google.com/file/d/1rActx6IsyBr_w6gOyHUIizwjsPBp1kg1/view?usp=sharing" }
     ]
   },
   javascript: {
