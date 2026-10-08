@@ -3,12 +3,12 @@ const lecturesData = {
     title: "GIT",
     icon: "fab fa-git-alt",
     lectures: [
-      { number: 1, url: "" },
-      { number: 2, url: "" },
-      { number: 3, url: "" },
-      { number: 4, url: "" },
-      { number: 5, url: "" },
-      { number: 6, url: "" }
+      { number: 1, url: "https://drive.google.com/file/d/1XZN9et1YhvpPmsXsJobug6hEg-nMYyqg/view?usp=sharing" },
+      { number: 2, url: "https://drive.google.com/file/d/11pxyb-YpBjOU3yvmeeW3GmizeMUNwt4J/view?usp=drive_link" },
+      { number: 3, url: "https://drive.google.com/file/d/1_hDW0IA-ui5NmLolpbq7dy-0How-Gq1_/view?usp=drive_link" },
+      { number: 4, url: "https://drive.google.com/file/d/1kFiQqra8PNP2C4WdM6veRYit_IbHAdE1/view?usp=drive_link" },
+      { number: 5, url: "https://drive.google.com/file/d/1YCLR97MaUBlzKkMYE5cUHf1256ETsKvj/view?usp=drive_link" },
+      { number: 6, url: "https://drive.google.com/file/d/1sfpdpaL3EAEkRA97u8icxqSkONDWA7GB/view?usp=sharing" }
     ]
   },
   html: {
