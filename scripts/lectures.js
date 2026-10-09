@@ -1,68 +1,68 @@
-
 const lecturesData = {
   git: {
-    title: "GIT",
+    title: "GIT + GITHUB",
     icon: "fab fa-git-alt",
     lectures: [
-      { number: 1, url: "https://www.youtube.com/watch?v=B0F0bcBaAv0" },
-      { number: 2, url: "https://www.youtube.com/watch?v=6m0NZh-lsW0&t=1830s" },
-      { number: 3, url: "https://www.youtube.com/watch?v=EBy0wX956kg" },
-      { number: 4, url: "https://www.youtube.com/watch?v=PktVfNjWWYw" },
-      { number: 5, url: "https://www.youtube.com/watch?v=qX4PDy3Hmsw" }
+      { number: 1, url: "https://drive.google.com/file/d/1XZN9et1YhvpPmsXsJobug6hEg-nMYyqg/view?usp=sharing" },
+      { number: 2, url: "https://drive.google.com/file/d/11pxyb-YpBjOU3yvmeeW3GmizeMUNwt4J/view?usp=drive_link" },
+      { number: 3, url: "https://drive.google.com/file/d/1_hDW0IA-ui5NmLolpbq7dy-0How-Gq1_/view?usp=drive_link" },
+      { number: 4, url: "https://drive.google.com/file/d/1kFiQqra8PNP2C4WdM6veRYit_IbHAdE1/view?usp=drive_link" },
+      { number: 5, url: "https://drive.google.com/file/d/1YCLR97MaUBlzKkMYE5cUHf1256ETsKvj/view?usp=drive_link" },
+      { number: 6, url: "https://drive.google.com/file/d/1sfpdpaL3EAEkRA97u8icxqSkONDWA7GB/view?usp=sharing" }
     ]
   },
   html: {
     title: "HTML",
     icon: "fab fa-html5",
     lectures: [
-      { number: 1, url: "https://www.youtube.com/watch?v=afwyGXvFm0I&t=2923s" },
-      { number: 2, url: "https://www.youtube.com/watch?v=DVRkvdifYpY" },
-      { number: 3, url: "https://www.youtube.com/watch?v=h13lGf31daA&t=3s" }
+      { number: 1, url: "https://drive.google.com/file/d/1ePYRrMIPAZNlivbcn9j1PVpz7Vkjw46K/view?usp=drive_link" },
+      { number: 2, url: "https://drive.google.com/file/d/1LzEsu-mRqU8vUE2vRqp2JV9nd7MwRTBj/view?usp=drive_link" },
+      { number: 3, url: "https://drive.google.com/file/d/1-XHtN5sEp0P_yWqOhW6EUbvEzJcwNjff/view?usp=drive_link" },
+      { number: 4, url: "https://drive.google.com/file/d/1ulHwZ8hGTKawKwzg--3dj6uAW8NP16Yv/view?usp=sharing" }
     ]
   },
   css: {
     title: "CSS",
     icon: "fab fa-css3-alt",
     lectures: [
-      { number: 1, url: "https://najah.zoom.us/rec/share/20LT1-LhoIRiIYEASi7_PrEx00syhk9uRfKkOqck7yAcJ9gyyUJAIurg4zJqrtm_.OcbSGTA6WAEbQX-W?startTime=1759583758000" },
-      { number: 2, url: "https://najah.zoom.us/rec/share/zOQ7IhO_iI3U9scWG6OqaLlN9P2OsgVC18dH4jcES02tMiIu6PoreEf6iVfYprGD.oIdcxcNAzV15jCqr" },
-      { number: 3, url: "https://najah.zoom.us/rec/share/oGIuMCDDrMG36JJBJflOdiYb7DXlqm0eXfqZAhhoxNj4Bn4dmPCSgcpq3h6pCJIP.zRZf12COGzo0-zZy" },
-      { number: 4, url: "https://najah.zoom.us/rec/share/I3CX7hkefhXOPP7-whHBXltT7-v9PJ_XSZvokOEEkJWbpRUHCuVJPTSpMEq7tCAD.2as69FnWoGoITenq?startTime=1760187632000" },
-      { number: 5, url: "https://najah.zoom.us/rec/share/MhyNKtgRlagBdnbrn0DLaVLiKhc2Wp76FUTxNR40Wh0Lf96eIr3tVzDZwNbsU4I_.oVbrSA5gFFx4NGD5?startTime=1760245737000" },
-      { number: 6, url: "https://najah.zoom.us/rec/share/uuxsSRiGBnePjvDfdAV4x6xQnTLCpTVvXWo74DTSu1oMxH4m3bxAE2Hs5TQwcrpX.jKnm7CSlTFdfGvH_?startTime=1760792721000" },
-      { number: 7, url: "https://najah.zoom.us/rec/share/wG5GReVfhjkH9puaOKj0kKhInJPPKzWpNasi3q3FrYZzB0NTo6AsS_hY8NXiHy1h.SEOShWGMrwvzfbUk?startTime=1761022971000" }
+      { number: 1, url: "https://drive.google.com/file/d/1ulHwZ8hGTKawKwzg--3dj6uAW8NP16Yv/view?usp=sharing" },
+      { number: 2, url: "https://drive.google.com/file/d/1DtXFv3VV9vowjHip-WG3gGwM5ivM57LN/view?usp=sharing" },
+      { number: 3, url: "https://drive.google.com/file/d/1-Xe5f-3doiqw4ScmQjk7GlyUSRVyEFG-/view?usp=sharing" },
+      { number: 4, url: "https://drive.google.com/file/d/1XLoCPmh31ggu6ml-xn0SxXSh-yvjJXDA/view?usp=sharing" },
+      { number: 5, url: "https://drive.google.com/file/d/1mXUYaqgF872ivhfQBzFMz9Cl2gDTthBQ/view?usp=sharing" },
+      { number: 6, url: "https://drive.google.com/file/d/1rActx6IsyBr_w6gOyHUIizwjsPBp1kg1/view?usp=sharing" }
     ]
   },
   javascript: {
     title: "JAVASCRIPT",
     icon: "fab fa-js",
     lectures: [
-      { number: 1, url: "https://najah.zoom.us/rec/share/YKUGFzrIaCRDIOCySKsfneSFhpiPbe_ZrSIAucIUjLgYj0mranUep2S_0FojIzp8.TBr4YAVuZe45Rqoi" },
-      { number: 2, url: "https://najah.zoom.us/rec/share/ri0DcW20SA3JMcVHPTNxc-mkaP16KAUE-601z4XFKHFjXRq4hsayIRTgvaFkwp9t.hQoDvA0qe0EZ3VR-" },
-      { number: 3, url: "https://najah.zoom.us/rec/share/ekZN0jSE7qXdtxwbfu-Z2nZcwLnkldMRl2ql_UTmQbjCs-ew9TgRUusvPi6zhSrK.3Dzr4ch9sOFw5jso?startTime=1761631777000" },
-      { number: 4, url: "https://najah.zoom.us/rec/share/IGgVIkNRZTTc72wqO-ZkNE_YKWdaHZhavqnv6bafm9_pZUBmyIe9FU6L8LsWLxcP.pXgk47K80_OS15sK" },
-      { number: 5, url: "https://najah.zoom.us/rec/share/SazaMOoht7KyyZ31mYzBFaVZa3d9oW2dTyypbzltMQb9coR-uLAvScyIBFPi-BIB.-fzMdYQ04wmNsS9g" },
-      { number: 6, url: "https://najah.zoom.us/rec/play/-bGzAZt1VgWIGcyc-PLjhYoJsJg_B-lYhqJDwODMJ9IH-ZIPyOxHiME-PlsksRVt37WV8-2ijiIgyIAv.LfQvwV_vlooRQDzn" },
-      { number: 7, url: "https://najah.zoom.us/rec/play/y3h_4OMY9kqIkG52iw12wGREenowJVdJKSlGPlS_Xt4OWyAEK_KlQ3sYTwqQRZukRvdbUcJGO8TA77In.nf2SjQn4dSSI6d8p" },
-      { number: 8, url: "https://najah.zoom.us/rec/play/o6eB9v5C4eYAvM2N55nvf73LrMhesOj9Jc50N_R9EYiu54pOlEV05hqkA7Xy9I1dCqDQdzxXxAGe2n8h.PdcfsHxWqllDcN7Y" },
-      { number: 9, url: "https://najah.zoom.us/rec/share/BhqmYNTU2rofQgPnim_ZcrYuY4buSlDFCA98HaOZd2K4mf9nMSP3oz3BDKa6Xgu9.IzwC2vdfiIP7Ashd" },
-      { number: 10, url: "https://najah.zoom.us/rec/play/9xbY9oIGBSsA-L1cehaNljd03_L74Tal-hV8oowFnyFgW3C0PJGDdOwAaMC_5sMKZbc1mFAveIk_JMrr.W9w5aCjEuXExVfSo?autoplay=true&startTime=1763211278000" },
-      { number: 11, url: "https://najah.zoom.us/rec/play/xt98jqFOp1AcGiDQUm4Lcj2xvqzTy8aEyY5D3-UHARgTBSuyxyPi2SCLkY2Fn1Ezq6oxm5aQp-pdQSlZ.Qtyxo9mi8K3iEEip?autoplay=true&startTime=1763273045000" },
-      { number: 12, url: "https://najah.zoom.us/rec/share/EVDE6Fk_WYjkbcDrfGD0ae4_Oq-b7_ZoVPrwJXMWg1rstx2ruXyRsnPIpeskzEQi.btGwASCZGmVB83Hx" },
-      { number: 13, url: "https://najah.zoom.us/rec/share/6o9x_yRUQ3-gbG08DBUPzb3amZA8xvai8BmODnuy8Thpa16vAW4o_NFGfSCOFq2z.-BS3NUHbGDDc26v0" },
-      { number: 14, url: "https://najah.zoom.us/rec/share/4AzYmLV6CTpCNgqLZTSymUodXxEeweO4OXdvgnmOsXyYMMEY6YWWFD1Uc8vr8oUU.HPdTjZ8uEdBDwM07" },
-      { number: 15, url: "https://najah.zoom.us/rec/share/ggOsxnofl4E9esLcxDkSkXN2L-kP5f8D3fv2Gevj2Ql500Gr9Ik_FlB6PPbYtCE6.1nxCoqgGlZHChiob" },
-      { number: 16, url: "https://najah.zoom.us/rec/share/LyM4RT0NUv24yIC_TO0HoTIHD2dlx6JZV9FXr2CAKDBZlaXixd7up3bTfIxKAypw.c3X0yDRRr06GM_5I" },
-      { number: 17, url: "https://najah.zoom.us/rec/share/ikyobamVKZr4IIWy6xjFsvmA_0_STEgoBnVO0ehSvNPQ3wAyqjfDLGBnDn-ujuwA.Zpeb1bRFlW4ZLnmA" },
-      { number: 18, url: "https://najah.zoom.us/rec/share/JsLn43SLPUG64RvcOzoMTdoz_Xz4PBL9c-jh6l8CQjxNL74ENVisQiQ9FwujAxY-.ts1HZoBvYNBPRR2B" },
-      { number: 19, url: "https://najah.zoom.us/rec/share/VazgZNw6W31sNFf6DWxe3i9fIQTMoABi38N71wASiEeVz0EqVy1ufOzlN5HgEL-A.IpadGuFw6Xz64JAy" },
-      { number: 20, url: "https://najah.zoom.us/rec/share/oyhwHyZNGtNXZaauiJ4oywtJzzFjmDpd7jwYfQ8TGxi4bJ-0asSfvY6nH0ddQX-G.NdgcZD25Rat6ubVo" },
-      { number: 21, url: "https://najah.zoom.us/rec/share/hfI5W1yo9vEOIRYNGcoUo9ubDOeLyR09QFgzciiGTYC_9vvLQTThyNaUTaGMEqVU.kqUu45dmdWY15wb7" },
-      { number: 22, url: "https://najah.zoom.us/rec/share/fEer9ly0tIgBtL2g-nEcqVY0461ElMttoMS7JpTIA0ZT4KYnt3LEFPy0ipnLujIh.JSJZA_61A_fnC8gC" },
-      { number: 23, url: "https://najah.zoom.us/rec/share/2YkRxRgx_IAfwTGP0HJqrMsoHYlsYv4vF8iYi38y3O2CB3dtEabHjBi6twpKTM5e.FZkOCDDkFlE2vd_s" },
-      { number: 24, url: "https://najah.zoom.us/rec/share/9ShUwKvrB0DqT9Uuia0Yj3f703WVMmOLjnkF2SuyzuJ0ine4cAk7KMKQRWHRGGSS.W4lcAco2sD9jnXzx" },
-      { number: 25, url: "https://najah.zoom.us/rec/share/fsOr0vUtmj8Xqza6b-ozIT8FCHLWAfQN01Q06zBM8Uq9tKaU6AKHRWtkndijGrpT.ql8eSoXv6sQgt20b" },
-      { number: 26, url: "https://najah.zoom.us/rec/share/ALEAtRtFp926muWWeaKaUIHWk5yzOaSZ1-s2ZZ__VvNwDt4OaLGSEGM1pfTVkZLM.NI6Vxx_f0xCHnMi-" }
+      { number: 1, url: "https://drive.google.com/file/d/1PwmVXKkbouiINxcN-ShNL4q3QhgWlIbA/view?usp=sharing" },
+      { number: 2, url: "https://drive.google.com/file/d/12ZzXHK_RP70yLwbL2yXDGEEqyEscKsUc/view?usp=sharing" },
+      { number: 3, url: "https://drive.google.com/file/d/1Zgq0AIjAhotYm1rNQnj20Mu7RmlQgcEo/view?usp=sharing" },
+      { number: 4, url: "https://drive.google.com/file/d/1fvhviC9mAnH7JzH0D5BbysPSAZtFho8I/view?usp=sharing" },
+      { number: 5, url: "https://drive.google.com/file/d/1LqXJ3cFMkfbruvOM2BhYGPEf8fwKcAGS/view?usp=drive_link" },
+      { number: 6, url: "https://drive.google.com/file/d/10VGhLuCQL7G_H0iokkpyEAAbygPP2T2K/view?usp=drive_link" },
+      { number: 7, url: "https://drive.google.com/file/d/1MSONtEyYc1pBQc3zkgdBXv-8O9bgO3g-/view?usp=drive_link" },
+      { number: 8, url: "https://drive.google.com/file/d/1KI1VV-rF2CUPXsOUaTUFiZm_oaBkuzFx/view?usp=drive_link" },
+      { number: 9, url: "https://drive.google.com/file/d/185aYpKb8e6G1CX-dm-5CWJwR405n3ZgT/view?usp=drive_link" },
+      { number: 10, url: "https://drive.google.com/file/d/1Sh_kiOHzwQKck0NwSjbm7k2tapnHnfTl/view?usp=drive_link" },
+      { number: 11, url: "https://drive.google.com/file/d/1dJYdeIZTcSUBCiI6imC90W4ZBblVoUsY/view?usp=drive_link" },
+      { number: 12, url: "https://drive.google.com/file/d/1htenmbcl-CH1qi3d0bpvsWEFSdWBp0Ze/view?usp=drive_link" },
+      { number: 13, url: "https://drive.google.com/file/d/1w_luLcDWHHbk9LqJMaB6n-lwqRE9Cs7p/view?usp=drive_link" },
+      { number: 14, url: "https://drive.google.com/file/d/1X887gOotWSQdq3Vy1AB8fqhBU_R-Sewp/view?usp=drive_link" },
+      { number: 15, url: "https://drive.google.com/file/d/17mrLxm4gueDsKDYuPaDMwbadQJWaV6q4/view?usp=drive_link" },
+      { number: 16, url: "https://drive.google.com/file/d/1gCeY165J658yElzKs6w14O2StkDYrKh9/view?usp=drive_link" },
+      { number: 17, url: "https://drive.google.com/file/d/1SfO2pTVfA5Y3POcAJ4sKJ8BNt75weLDm/view?usp=drive_link" },
+      { number: 18, url: "https://drive.google.com/file/d/1kk9HiNE2_pBDKSXDk2B3xoN-JFPc3M7t/view?usp=drive_link" },
+      { number: 19, url: "https://drive.google.com/file/d/1wrdWJwFDXy7I-WxzKJGM0ZjWaFMOY1PH/view?usp=drive_link" },
+      { number: 20, url: "https://drive.google.com/file/d/116DYv7blGYvwxAvLl8outpDlj5vSAtkp/view?usp=drive_link" },
+      { number: 21, url: "https://drive.google.com/file/d/1fPxLrf-RVd2zxR5rU0zc-Y4Hrz4aghr7/view?usp=drive_link" },
+      { number: 22, url: "https://drive.google.com/file/d/1lacRjAKf0V_PNstkXnsXqjIJYLC3acGJ/view?usp=drive_link" },
+      { number: 23, url: "https://drive.google.com/file/d/1TDgJYq5cWpWmUPJxPD1ZrckufhYSWtXe/view?usp=drive_link" },
+      { number: 24, url: "https://drive.google.com/file/d/1reUWmJy4ljz8wGFjq33ygLmSTxVD6cTP/view?usp=drive_link" },
+      { number: 25, url: "https://drive.google.com/file/d/1LvDqdEH0Dk6FyR2OTz902ToVRw5HsJTg/view?usp=drive_link" },
+      { number: 26, url: "https://drive.google.com/file/d/197Qds3M3JrCU7NfVQ9wylTwMP2b2rQwd/view?usp=drive_link" }
     ]
   }
 };

@@ -11,6 +11,8 @@
   --radius: 24px;
   --shadow: 0 8px 20px -6px rgba(0, 0, 0, 0.08);
   --shadow-hover: 0 20px 30px -10px rgba(0, 0, 0, 0.15);
+  --html: #e8590c;
+  --html-bg: #ffd9bf;
 }
 
 * {
@@ -41,7 +43,7 @@ header {
   text-align: center;
   background: white;
   padding: 2.5rem 2rem;
-  border-radius: 48px;
+  border-radius: 20px;
   margin-bottom: 3rem;
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.02);
   border: black solid 5px;
@@ -208,22 +210,25 @@ h1 {
 
 .lecture-card.git {
   background: var(--git-bg);
-  border-left-color: var(--git);
+  border: var(--git) 7px solid;
 }
 
 .lecture-card.html {
   background: var(--html-bg);
-  border-left-color: var(--html);
+  border: var(--html) 7px solid;
+  ;
 }
 
 .lecture-card.css {
   background: var(--css-bg);
-  border-left-color: var(--css);
+  border: var(--css) 7px solid;
+  ;
 }
 
 .lecture-card.javascript {
   background: var(--js-bg);
-  border-left-color: var(--js);
+  border: var(--js) 7px solid;
+  ;
 }
 
 .lecture-card.git:hover {
@@ -251,28 +256,26 @@ h1 {
 }
 
 .lecture-number {
-  font-size: 3.2rem;
+  font-size: 5rem;
   font-weight: 800;
   color: rgb(0, 0, 0);
-
   width: 8rem;
   height: 8rem;
-
   background: rgb(255, 255, 255);
-  border-radius: 50%;
-
+  border-radius: 10%;
   display: flex;
   align-items: center;
   justify-content: center;
+  border: black 8px solid;
 }
 
 .watch-btn {
-  background: #0f1e2f;
-  color: white;
+  background: white;
+  color: black;
   border: none;
   padding: 0.8rem 1.2rem;
-  border-radius: 100px;
-  font-size: 0.9rem;
+  border-radius: 10px;
+  font-size: 1rem;
   font-weight: 600;
   display: flex;
   align-items: center;
@@ -282,12 +285,14 @@ h1 {
   cursor: pointer;
   transition: 0.16s;
   box-shadow: 0 6px 14px rgba(0, 0, 0, 0.06);
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  border: 1px solid black;
 }
 
 .watch-btn:hover {
-  background: #1b2c40;
+  background: black;
   transform: scale(0.98);
+  color: white;
+  border: white 3px solid;
 }
 
 .footer {
@@ -330,4 +335,43 @@ h1 {
 
 .line:hover {
   text-decoration: underline;
+}
+
+
+:root {
+  --shadow: 6px 6px 0 #000;
+  --shadow-hover: 9px 9px 0 #000;
+}
+
+.lecture-card {
+  border: 4px solid #000;
+  box-shadow: var(--shadow);
+  transition: transform .15s, box-shadow .15s, background .15s;
+}
+
+.lecture-card:hover {
+  transform: translate(-3px, -3px);
+  box-shadow: var(--shadow-hover);
+}
+
+.watch-btn {
+  border: 3px solid #000;
+  box-shadow: 3px 3px 0 #000;
+  transition: transform .1s, box-shadow .1s, background .1s, color .1s;
+}
+
+.watch-btn:hover {
+  background: #000;
+  color: #fff;
+}
+
+.watch-btn:active {
+  transform: translate(3px, 3px);
+  box-shadow: none;
+}
+
+body {
+  background-color: #f0f4fa;
+  background-image: radial-gradient(rgba(0,0,0,.15) 1px, transparent 1px);
+  background-size: 22px 22px;
 }
