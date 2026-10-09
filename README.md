@@ -1,4 +1,4 @@
-# 🌐 WebOneLectures — Web Development Learning Resources
+# 🌐 WebOneLectures — Web Development Resources
 
 **Your central hub for Web 1 lectures, slides, and essential web development resources — all in one place.**
 
