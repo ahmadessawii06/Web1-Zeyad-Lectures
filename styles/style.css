@@ -19,6 +19,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 body {
@@ -256,17 +257,17 @@ h1 {
 }
 
 .lecture-number {
-  font-size: 5rem;
-  font-weight: 800;
+  font-size: 3rem;
+  font-weight: 500;
   color: rgb(0, 0, 0);
   width: 8rem;
   height: 8rem;
-  background: rgb(255, 255, 255);
-  border-radius: 10%;
+  background: rgba(255, 255, 255, 0.877);
+  border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  border: black 8px solid;
+  border: black 4px solid;
 }
 
 .watch-btn {
