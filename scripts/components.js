@@ -1,8 +1,10 @@
 // Component generation functions
 
+
 function createHeader() {
   return `
     <header class="site-header">
+
       <div class="header-top">
         <div class="course-brand">
           <div class="course-icon">
@@ -10,14 +12,13 @@ function createHeader() {
           </div>
 
           <div class="course-info">
-            <h1>Web1  Lectures</h1>
+            <h1>WebOneLectures</h1>
             <p>
-              Eng. <a href="https://github.com/zeiadhabbab"
-                target="_blank" rel="noopener noreferrer">
-                Zeyad Habbab
+              Taught by
+              <a href="https://github.com/zeiadhabbab"
+                 target="_blank" rel="noopener noreferrer">
+                Eng. Zeyad Habbab
               </a>
-              <span class="meta-dot">·</span>
-              2025/2026
             </p>
           </div>
         </div>
@@ -32,55 +33,74 @@ function createHeader() {
           <i class="fas fa-code"></i>
           Developed by
           <a href="https://github.com/ahmadessawii06"
-            target="_blank" rel="noopener noreferrer">
+             target="_blank" rel="noopener noreferrer">
             Ahmad Essawii
           </a>
         </span>
 
         <span class="resource-label">
-          LEARNING RESOURCES
+          COURSE MATERIALS
         </span>
       </div>
 
       <nav class="resource-row" aria-label="Course resources">
+
         <a class="resource-card slides"
-          href="https://drive.google.com/drive/folders/174jcAmJw1S_D28iR47UDNnyEXZGvj_tz?usp=sharing"
-          target="_blank" rel="noopener noreferrer">
+           href="https://drive.google.com/drive/folders/174jcAmJw1S_D28iR47UDNnyEXZGvj_tz?usp=sharing"
+           target="_blank" rel="noopener noreferrer">
           <span class="resource-icon">
             <i class="fas fa-file-powerpoint"></i>
           </span>
           <span class="resource-content">
-            <strong>Slides</strong>
-            <small>Git · GitHub · HTML · CSS</small>
+            <strong> All Slides</strong>
+          
           </span>
           <i class="fas fa-arrow-up-right-from-square resource-arrow"></i>
         </a>
 
         <a class="resource-card jsfund"
-          href="https://ahmadessawii06.github.io/JavaScript-Fundamentals/"
-          target="_blank" rel="noopener noreferrer">
+           href="https://ahmadessawii06.github.io/JavaScript-Fundamentals/"
+           target="_blank" rel="noopener noreferrer">
           <span class="resource-icon">
             <i class="fas fa-book-open"></i>
           </span>
           <span class="resource-content">
-            <strong>JavaScript Fundamentals</strong>
-            <small>JavaScript learning</small>
+            <strong> JavaScript Fundamentals</strong>
+           
           </span>
           <i class="fas fa-arrow-up-right-from-square resource-arrow"></i>
         </a>
 
         <a class="resource-card react"
-          href="https://react.dev/learn"
-          target="_blank" rel="noopener noreferrer">
+           href="https://react.dev/learn"
+           target="_blank" rel="noopener noreferrer">
           <span class="resource-icon">
             <i class="fab fa-react"></i>
           </span>
           <span class="resource-content">
-            <strong>React</strong>
-            <small>Official documentation</small>
+            <strong>  React Documentation</strong>
+           
           </span>
           <i class="fas fa-arrow-up-right-from-square resource-arrow"></i>
         </a>
+
+        <a class="resource-card lectures"
+          href="https://drive.google.com/drive/folders/13X0D8f9Wv-dxffsBDjG4-jwNjdOVG0IK?usp=sharing"
+          target="_blank"
+          rel="noopener noreferrer">
+
+          <span class="resource-icon">
+            <i class="fas fa-play-circle"></i>
+          </span>
+
+          <span class="resource-content">
+            <strong>All Lectures</strong>
+          </span>
+
+          <i class="fas fa-arrow-up-right-from-square resource-arrow"></i>
+        </a>
+
+
       </nav>
     </header>
   `;
@@ -124,10 +144,10 @@ function createFooter() {
   return `
     <div class="footer">
       <p>
-        Designed by <strong>AhmadEssawii</strong> · Git, HTML, CSS, JavaScript
+        Designed by <strong>Ahmad Essawii</strong> · Git, HTML, CSS, JavaScript
         · An-Najah National University
       </p>
-      <p><i class="far fa-copyright"></i> 2026 All rights reserved</p>
+      <p><i class="far fa-copyright"></i>  2025 All rights reserved</p>
     </div>
   `;
 }

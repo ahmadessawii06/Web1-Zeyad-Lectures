@@ -887,3 +887,26 @@ body {
     transform: none;
   }
 }
+
+
+.lectures .resource-icon {
+  color: #059669;
+  background: #ECFDF5;
+}
+
+/* Four resource cards */
+.resource-row {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+@media (max-width: 900px) {
+  .resource-row {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 480px) {
+  .resource-row {
+    grid-template-columns: 1fr;
+  }
+}
