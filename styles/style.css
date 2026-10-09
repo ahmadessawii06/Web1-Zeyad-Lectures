@@ -260,8 +260,8 @@ h1 {
   font-size: 3rem;
   font-weight: 500;
   color: rgb(0, 0, 0);
-  width: 8rem;
-  height: 8rem;
+  width: 6rem;
+  height: 6rem;
   background: rgba(255, 255, 255, 0.877);
   border-radius: 50%;
   display: flex;
@@ -375,4 +375,515 @@ body {
   background-color: #f0f4fa;
   background-image: radial-gradient(rgba(0,0,0,.15) 1px, transparent 1px);
   background-size: 22px 22px;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700&display=swap');
+
+.site-header {
+  font-family: 'Inter', sans-serif;
+  padding: 28px;
+  border: 1px solid #E5E7EB;
+  border-radius: 20px;
+  background: #FFFFFF;
+  color: #111827;
+}
+
+/* Header title */
+.site-header a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.header-top,
+.course-brand,
+.header-meta,
+.resource-card {
+  display: flex;
+  align-items: center;
+}
+
+.header-top,
+.header-meta {
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.course-brand {
+  gap: 14px;
+}
+
+.course-icon {
+  width: 46px;
+  height: 46px;
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  border-radius: 14px;
+  background: #EEF2FF;
+  color: #4F46E5;
+  font-size: 20px;
+}
+
+.course-info h1 {
+  margin: 0;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: clamp(21px, 3vw, 28px);
+  font-weight: 700;
+  letter-spacing: -1px;
+  color: #111827;
+}
+
+.course-info p {
+  margin: 6px 0 0;
+  color: #6B7280;
+  font-size: 13px;
+}
+
+.course-info p a,
+.developer-credit a {
+  color: #4F46E5;
+  font-weight: 600;
+  transition: color 180ms ease;
+}
+
+.course-info p a:hover,
+.developer-credit a:hover {
+  color: #3730A3;
+}
+
+.meta-dot {
+  padding: 0 5px;
+  color: #9CA3AF;
+}
+
+.course-tag {
+  padding: 7px 12px;
+  border: 1px solid #E0E7FF;
+  border-radius: 999px;
+  background: #F5F7FF;
+  color: #4F46E5;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+/* Divider */
+.header-divider {
+  height: 1px;
+  margin: 24px 0 18px;
+  background: #E5E7EB;
+}
+
+/* Instructor and credit */
+.header-meta {
+  margin-bottom: 14px;
+  flex-wrap: wrap;
+}
+
+.developer-credit {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  color: #6B7280;
+  font-size: 12px;
+}
+
+.resource-label {
+  color: #9CA3AF;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+}
+
+/* Resource cards */
+.resource-row {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.resource-card {
+  min-width: 0;
+  gap: 12px;
+  padding: 15px;
+  border: 1px solid #E5E7EB;
+  border-radius: 14px;
+  background: #FFFFFF;
+  transition:
+    border-color 180ms ease,
+    background 180ms ease,
+    transform 180ms ease;
+}
+
+.resource-card:hover {
+  transform: translateY(-2px);
+  border-color: #C7D2FE;
+  background: #FAFAFF;
+}
+
+.resource-icon {
+  display: grid;
+  place-items: center;
+  width: 38px;
+  height: 38px;
+  flex-shrink: 0;
+  border-radius: 11px;
+  background: #F3F4F6;
+  font-size: 17px;
+}
+
+.slides .resource-icon {
+  color: #4F46E5;
+  background: #EEF2FF;
+}
+
+.jsfund .resource-icon {
+  color: #B7791F;
+  background: #FFFBEB;
+}
+
+.react .resource-icon {
+  color: #0891B2;
+  background: #ECFEFF;
+}
+
+.resource-content {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 5px;
+  min-width: 0;
+}
+
+.resource-content strong {
+  color: #111827;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.resource-content small {
+  color: #6B7280;
+  font-size: 11px;
+}
+
+.resource-arrow {
+  color: #9CA3AF;
+  font-size: 11px;
+  transition: color 180ms ease;
+}
+
+.resource-card:hover .resource-arrow {
+  color: #4F46E5;
+}
+
+/* Keyboard accessibility */
+.site-header a:focus-visible {
+  outline: 2px solid #6366F1;
+  outline-offset: 4px;
+  border-radius: 4px;
+}
+
+/* Responsive */
+@media (max-width: 640px) {
+  .site-header {
+    padding: 18px;
+    border-radius: 16px;
+  }
+
+  .resource-row {
+    grid-template-columns: 1fr;
+  }
+
+  .resource-label {
+    display: none;
+  }
+
+  .header-divider {
+    margin: 18px 0 14px;
+  }
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .resource-card,
+  .resource-arrow,
+  .course-info p a,
+  .developer-credit a {
+    transition: none;
+  }
+
+  .resource-card:hover {
+    transform: none;
+  }
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap');
+
+/* Main Header Card Neo-Brutalist Style */
+.site-header {
+  font-family: 'Inter', sans-serif;
+  padding: 28px;
+  border: 3.5px solid #000000;
+  border-radius: 20px;
+  background: #FFFFFF;
+  color: #000000;
+  box-shadow: 6px 6px 0px #000000;
+  transition: transform 180ms ease, box-shadow 180ms ease;
+}
+
+.site-header a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.header-top,
+.course-brand,
+.header-meta,
+.resource-card {
+  display: flex;
+  align-items: center;
+}
+
+.header-top,
+.header-meta {
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.course-brand {
+  gap: 14px;
+}
+
+/* Course Icon */
+.course-icon {
+  width: 48px;
+  height: 48px;
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  border-radius: 14px;
+  background: #EEF2FF;
+  color: #000000;
+  border: 2.5px solid #000000;
+  box-shadow: 3px 3px 0px #000000;
+  font-size: 20px;
+}
+
+.course-info h1 {
+  margin: 0;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: clamp(21px, 3vw, 28px);
+  font-weight: 800;
+  letter-spacing: -1px;
+  color: #000000;
+}
+
+.course-info p {
+  margin: 6px 0 0;
+  color: #374151;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.course-info p a,
+.developer-credit a {
+  color: #000000;
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  transition: color 180ms ease;
+}
+
+.course-info p a:hover,
+.developer-credit a:hover {
+  color: #2563EB;
+}
+
+.meta-dot {
+  padding: 0 5px;
+  color: #000000;
+  font-weight: bold;
+}
+
+/* Tag Badge */
+.course-tag {
+  padding: 7px 14px;
+  border: 2.5px solid #000000;
+  border-radius: 999px;
+  background: #EEF2FF;
+  color: #000000;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  box-shadow: 3px 3px 0px #000000;
+}
+
+/* Divider */
+.header-divider {
+  height: 3px;
+  margin: 24px 0 18px;
+  background: #000000;
+}
+
+/* Instructor and credit */
+.header-meta {
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+
+.developer-credit {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  color: #111827;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.resource-label {
+  color: #000000;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 1.2px;
+}
+
+/* Resource Grid & Cards */
+.resource-row {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.resource-card {
+  min-width: 0;
+  gap: 12px;
+  padding: 14px 16px;
+  border: 2.5px solid #000000;
+  border-radius: 14px;
+  background: #FFFFFF;
+  box-shadow: 4px 4px 0px #000000;
+  transition: transform 150ms ease, box-shadow 150ms ease, background-color 150ms ease;
+}
+
+.resource-card:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 6px 6px 0px #000000;
+}
+
+.resource-card:active {
+  transform: translate(2px, 2px);
+  box-shadow: 2px 2px 0px #000000;
+}
+
+.resource-icon {
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 2px solid #000000;
+  font-size: 18px;
+}
+
+/* Specific Resource Card Colors & Styles */
+.slides .resource-icon {
+  color: #000000;
+  background: #E0E7FF;
+}
+
+.slides:hover {
+  background: #EEF2FF;
+}
+
+.jsfund .resource-icon {
+  color: #000000;
+  background: #FEF3C7;
+}
+
+.jsfund:hover {
+  background: #FFFBEB;
+}
+
+.react .resource-icon {
+  color: #000000;
+  background: #E0F2FE;
+}
+
+.react:hover {
+  background: #F0F9FF;
+}
+
+.resource-content {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 3px;
+  min-width: 0;
+}
+
+.resource-content strong {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.resource-content small {
+  color: #374151;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.resource-arrow {
+  color: #000000;
+  font-size: 12px;
+  font-weight: bold;
+  transition: transform 150ms ease;
+}
+
+.resource-card:hover .resource-arrow {
+  transform: translate(2px, -2px);
+}
+
+/* Keyboard Accessibility */
+.site-header a:focus-visible {
+  outline: 3px solid #000000;
+  outline-offset: 3px;
+}
+
+/* Responsive */
+@media (max-width: 640px) {
+  .site-header {
+    padding: 18px;
+    border-radius: 16px;
+    box-shadow: 4px 4px 0px #000000;
+  }
+
+  .resource-row {
+    grid-template-columns: 1fr;
+  }
+
+  .resource-label {
+    display: none;
+  }
+
+  .header-divider {
+    margin: 18px 0 14px;
+  }
+}
+
+/* Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  .resource-card,
+  .resource-arrow,
+  .site-header {
+    transition: none;
+  }
+
+  .resource-card:hover {
+    transform: none;
+  }
 }

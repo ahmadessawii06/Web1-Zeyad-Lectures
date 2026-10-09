@@ -1,36 +1,91 @@
 // Component generation functions
+
 function createHeader() {
   return `
-    <header>
-      <h1>
-        <i class="fas fa-star"></i> Web1 Lectures - Eng.
-        <a class="line" target="_blank" href="https://github.com/zeiadhabbab">Zeyad Habbab</a>
-        2025/2026
-        <i class="fas fa-star"></i>
-      </h1>
-      <h1>
-        <i class="fas fa-copyright"></i>By:
-        <a class="line" href="https://github.com/ahmadessawii06" target="_blank">Ahmad Essawii</a>
-        <i class="fas fa-copyright"></i>
-      </h1>
-     
-      <div class="resource-row">
-        <span class="resource-badge slides">
-          <i class="fas fa-file-powerpoint"></i>
-          <a target="_blank" href="https://drive.google.com/drive/folders/174jcAmJw1S_D28iR47UDNnyEXZGvj_tz?usp=sharing">Slides (Git+HTML+CSS)</a>
+    <header class="site-header">
+      <div class="header-top">
+        <div class="course-brand">
+          <div class="course-icon">
+            <i class="fas fa-graduation-cap"></i>
+          </div>
+
+          <div class="course-info">
+            <h1>Web1  Lectures</h1>
+            <p>
+              Eng. <a href="https://github.com/zeiadhabbab"
+                target="_blank" rel="noopener noreferrer">
+                Zeyad Habbab
+              </a>
+              <span class="meta-dot">·</span>
+              2025/2026
+            </p>
+          </div>
+        </div>
+
+        <span class="course-tag">WEB 1</span>
+      </div>
+
+      <div class="header-divider"></div>
+
+      <div class="header-meta">
+        <span class="developer-credit">
+          <i class="fas fa-code"></i>
+          Developed by
+          <a href="https://github.com/ahmadessawii06"
+            target="_blank" rel="noopener noreferrer">
+            Ahmad Essawii
+          </a>
         </span>
-        <span class="resource-badge jsfund">
-          <i class="fas fa-book-open"></i>
-          <a target="_blank" href="https://ahmadessawii06.github.io/JavaScript-Fundamentals/">JS Fundamentals</a>
-        </span>
-        <span class="resource-badge react">
-          <i class="fab fa-react"></i>
-          <a target="_blank" href="https://react.dev/learn">React.dev</a>
+
+        <span class="resource-label">
+          LEARNING RESOURCES
         </span>
       </div>
+
+      <nav class="resource-row" aria-label="Course resources">
+        <a class="resource-card slides"
+          href="https://drive.google.com/drive/folders/174jcAmJw1S_D28iR47UDNnyEXZGvj_tz?usp=sharing"
+          target="_blank" rel="noopener noreferrer">
+          <span class="resource-icon">
+            <i class="fas fa-file-powerpoint"></i>
+          </span>
+          <span class="resource-content">
+            <strong>Slides</strong>
+            <small>Git · GitHub · HTML · CSS</small>
+          </span>
+          <i class="fas fa-arrow-up-right-from-square resource-arrow"></i>
+        </a>
+
+        <a class="resource-card jsfund"
+          href="https://ahmadessawii06.github.io/JavaScript-Fundamentals/"
+          target="_blank" rel="noopener noreferrer">
+          <span class="resource-icon">
+            <i class="fas fa-book-open"></i>
+          </span>
+          <span class="resource-content">
+            <strong>JavaScript Fundamentals</strong>
+            <small>JavaScript learning</small>
+          </span>
+          <i class="fas fa-arrow-up-right-from-square resource-arrow"></i>
+        </a>
+
+        <a class="resource-card react"
+          href="https://react.dev/learn"
+          target="_blank" rel="noopener noreferrer">
+          <span class="resource-icon">
+            <i class="fab fa-react"></i>
+          </span>
+          <span class="resource-content">
+            <strong>React</strong>
+            <small>Official documentation</small>
+          </span>
+          <i class="fas fa-arrow-up-right-from-square resource-arrow"></i>
+        </a>
+      </nav>
     </header>
   `;
 }
+
 
 function createLectureColumn(category, data) {
   const lecturesHTML = data.lectures.map(lecture => `
